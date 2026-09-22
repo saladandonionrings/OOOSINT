@@ -1,0 +1,1 @@
+- https://badgify.eu/verify

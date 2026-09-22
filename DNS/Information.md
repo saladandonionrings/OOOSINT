@@ -1,0 +1,16 @@
+# Type of DNS Records
+- A = Address mapping (name -> IPv4)
+- AAAA = Address mapping (name -> IPv6)
+- CNAME = Canonical Name (alias)
+- DNAME = Subtree lookup
+- MX = Mail server
+- NS = Name server (DNS resolution)
+- SOA = Start of Authority (top level domain information)
+- SRV = Generic service record (e.g. instead of MX)
+- TXT = Generic text record (e.g. SPF, DKIM, DMARC, etc)
+- HINFO = Host information (CPU, OS, etc.), but not commonly available
+- CAA = CA Authorization (CAs for a domain)
+- IPSECKEY = An IPSec key J
+- PTR = Address mapping (reverse lookups)
+- DNSSIG = DNSSEC signature
+- NSEC/NSEC3 = DNSSEC Non-existence
